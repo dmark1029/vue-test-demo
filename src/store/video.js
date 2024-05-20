@@ -15,7 +15,7 @@ const mutations = {
         state.loading = data
     },
     ADD_TO_CACHE(state, { key, data }) {
-        const cacheDuration = 20 * 1000; // 5 minutes in milliseconds
+        const cacheDuration = 5 * 60 * 1000; // 5 minutes in milliseconds
         state.cache[key] = {
           data,
           expiry: Date.now() + cacheDuration,
