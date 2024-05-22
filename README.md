@@ -1,17 +1,10 @@
-# test-demo
+## Laravel 11 + Vue3 test demo
 
-## Project setup
-```
-npm install
-```
+Go inside the Project and install the required package.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- npm install
+- composer update
 
-### Compiles and minifies for production
-```
-npm run build
-```
+To start the vite server, use this command: npm run dev
 
+To start the laravel server, use this command: php artisan serve

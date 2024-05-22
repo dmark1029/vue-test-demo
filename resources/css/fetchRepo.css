@@ -1,0 +1,13 @@
+.input::placeholder {
+  color: black;
+  opacity: 0.6;
+}
+.per-page {
+  width: 80px;
+}
+.itermsPerPage {
+  width: 80px !important;
+}
+.main {
+  min-height: 1000px;
+}
